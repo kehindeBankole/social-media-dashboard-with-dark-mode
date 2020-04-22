@@ -1,0 +1,196 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Social media Dashboard</title>
+</head>
+
+
+<body>
+  <header id="header">
+    <div class="container-fluid">
+      <div class="py-3">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3 class="ml-3">Social Media Dashboard</h3>
+            <h6 class="ml-3" id="followers">Total Followers: 23,004</h6>
+            <hr />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <span class="ml-3 mb-5" id='dm'><span class="mr-3 mt-3" id="dark">Dark mode</span>
+              <label class="switch" id="switch">
+                <input type="checkbox" id="check" onclick="my()" />
+                <span class="slider"></span>
+              </label>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row rows container-fluid text-center">
+        <div class="col-md-3 col-lg-3 col-sm-12">
+          <div class="card facebook mb-3">
+            <div class="card-body">
+              <div class="text-center">
+                <p class="name"><img src="images/icon-facebook.svg" class="mr-2" />@nathanf</p>
+                <h1 class="followers">1987</h1>
+                <h5 class="followtext">Followers</h5>
+                <p class="date">12 Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-12">
+          <div class="card twitter  mb-3">
+            <div class="card-body">
+              <div class="text-center">
+                <p class="name"><img src="images/icon-twitter.svg" class="mr-2" />@nathanf</p>
+                <h1 class="followers">1044</h1>
+                <h5 class="followtext">Followers</h5>
+                <p class="date">12 Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-12">
+          <div class="card insta mb-3">
+            <div class="card-body">
+              <div class="text-center">
+                <p class="name"><img src="images/icon-instagram.svg" class="mr-2" />@nathanf</p>
+                <h1 class="followers">11k</h1>
+                <h5 class="followtext">Followers</h5>
+                <p class="date">12 Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-12">
+          <div class="card youtube mb-3">
+            <div class="card-body">
+              <div class="text-center">
+                <p class="name"><img src="images/icon-youtube.svg" class="mr-2" />@nathanf</p>
+                <h1 class="followers">8239</h1>
+                <h5 class="followtext">Followers</h5>
+                <p class="date">12 Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="container-fluid df mt-5">
+    <h4 class="mb-5 ml-3">Overview - Today</h4>
+    <div class="row  mt-5">
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Page Views</h6>
+            <p style="float: right;"><img src="images/icon-facebook.svg" /></p>
+            <hr />
+            <h2>87</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Likes</h6>
+            <p style="float: right;"><img src="images/icon-facebook.svg" /></p>
+            <hr />
+            <h2>52</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Likes</h6>
+            <p style="float: right;"><img src="images/icon-instagram.svg" /></p>
+            <hr />
+            <h2>5462</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Total Views</h6>
+            <p style="float: right;"><img src="images/icon-instagram.svg" /></p>
+            <hr />
+            <h2>52k</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row ">
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Page Views</h6>
+            <p style="float: right;"><img src="images/icon-twitter.svg" /></p>
+            <hr />
+            <h2 class="num">117</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Likes</h6>
+            <p style="float: right;"><img src="images/icon-twitter.svg" /></p>
+            <hr />
+            <h2 class="num">507</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6>Likes</h6>
+            <p style="float: right;"><img src="images/icon-youtube.svg" /></p>
+            <hr />
+            <h2 class="num">107</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="card mb-3" id="s">
+          <div class="card-body">
+            <h6>Total Views</h6>
+            <p style="float: right;"><img src="images/icon-youtube.svg" /></p>
+            <hr />
+            <h2 class="num">1407</h2>
+            <h6 style="float: right;" class="mt-3"><img src="images/icon-down.svg" /> 3%</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
